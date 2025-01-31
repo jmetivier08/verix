@@ -1,0 +1,37 @@
+
+ /* Menú */
+ .nav-link {
+  color: #323232;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 110%;
+}
+  
+.nav-link:hover {
+  font-weight: 700; /* Aumenta ligeramente el tamaño al pasar el mouse */
+}
+
+/* Mantener el color azul cuando el acordeón se expande o colapsa */
+.accordion-button {
+  background-color: #007bff; /* Azul */
+  color: white; /* Texto blanco */
+  border-color: #007bff; /* Borde azul */
+}
+
+/* Cambiar el color solo cuando se presiona (activo) */
+.accordion-button:not(.collapsed) {
+  background-color: #0056b3; /* Azul más oscuro para el estado activo */
+  border-color: #0056b3; /* Borde azul más oscuro */
+}
+
+/* Cambiar color de texto cuando se presiona */
+.accordion-button:not(.collapsed) {
+  color: white;
+}
+
+/* Agregar color al botón cuando no está presionado */
+.accordion-button.collapsed {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+

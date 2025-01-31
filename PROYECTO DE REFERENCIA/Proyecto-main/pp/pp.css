@@ -1,0 +1,22 @@
+
+.titulo-container {
+  padding-top: 23%; 
+  margin-left: 2%;
+}
+
+.Titulo {
+  color: #000000; 
+  font-size: 80px;
+}
+
+/* Menú */
+.nav-link {
+  color: #323232;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 110%;
+}
+  
+.nav-link:hover {
+  font-weight: 700; /* Aumenta ligeramente el tamaño al pasar el mouse */
+}

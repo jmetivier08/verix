@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es" class="h-100">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tec-Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="pds.css">
+</head>
+
+<body class="d-flex flex-column h-100">
+
+    <!-- Barra de navegacion principal que contiene el logo, los enlaces de navegación y el boton de traductor -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/pp/index.html">
+                <img src="/png/steelwall.png" alt="Escudo basado en la ciberseguridad." height="70">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+                </span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pp/index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pcc/index.html">Componentes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/psn/index.html ">Sobre nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pds/index.html">Soporte</a>
+                    </li>
+                </ul>
+                <div class="dropdown">
+                    <button class="btn bg-dark text-white dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                        Traductor
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <li>
+                            <a class="dropdown-item" href="/cat/pds/index.html">Catalán</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="/ing/pds/index.html">Inglés</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Títulos -->
+    <div class="titulos text-center my-4">
+        <h1 class="titulo1">Bienvenidos al soporte de <span class="tit">Tec-Shop</span></h1>
+        <h2 class="titulo3">Aquí encontrarás las soluciones a tus problemas</h2>
+    </div>
+
+    <!-- GIFs representativos   -->
+    <div class="container d-flex justify-content-center align-items-center" style="height: 77%;">
+        <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000" style="width: 40%;">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/png/Gif1.gif" class="d-block w-100 img-fluid" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/png/Gif2.gif" class="d-block w-100 img-fluid" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/png/Gif3.gif" class="d-block w-100 img-fluid" alt="...">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+      
+    
+    
+
+    <!-- Acordeón con preguntas frecuentes -->
+    <h2 class="titulo2 text-center my-4">Preguntas frecuentes</h2>
+
+    <div class="accordion" id="accordionFAQ">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    No funciona la página (No cargan las imágenes, no carga la página, etc...)
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionFAQ">
+                <div class="accordion-body">
+                    Recarga la página. Esto puede suceder porque tenga mala señal o la página no funciona bien.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    La página va muy lenta
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionFAQ">
+                <div class="accordion-body">
+                    Cierra otras pestañas y aplicaciones abiertas y si no funciona, puede que tengas que actualizar tu navegador a la última versión.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    La página se ve distorsionada
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionFAQ">
+                <div class="accordion-body">
+                    Actualiza la página (presiona F5 o Ctrl+R) o puede que tengas que ajustar el zoom de tu navegador (Ctrl + o Ctrl -).
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Las imágenes no cargan
+                </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionFAQ">
+                <div class="accordion-body">
+                    Verifica tu conexión a internet o borra la caché del navegador.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    La página muestra un error 404, ¿qué debo hacer?
+                </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionFAQ">
+                <div class="accordion-body">
+                    Verifica que hayas escrito correctamente la dirección URL.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSix">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                    ¿Por qué no puedo hacer clic en algunos botones o enlaces?
+                </button>
+            </h2>
+            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionFAQ">
+                <div class="accordion-body">
+                    Desactiva temporalmente las extensiones del navegador.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSeven">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                    Otros problemas...
+                </button>
+            </h2>
+            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionFAQ">
+                <div class="accordion-body">
+                    Intenta refrescar o reiniciar el navegador.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pie de pagina -->
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <hr class="border-5" class="">
+                    <p>Si entras a esta página, aceptas las políticas y términos de privacidad. Todos los derechos reservados. Todas las marcas registradas pertenecen a <span class="fw-bold">Tec-Shop ©</span>.
+                    </p>
+                    <p>Redes sociales: |
+                        <a href="https://www.instragram.com" target="_blank" class="fw-bold"> Instagram</a> <a href="https://www.instragram.com" target="_blank"><img class="redes" src="/png/instagram.png" alt="Instagram" height="30" >
+                        </a> |    
+                        <a href="https://www.github.com" target="_blank" class="fw-bold"> Github</a> <a href="https://www.github.com" target="_blank"><img class="redes" src="/png/github.png" alt="Github" height="30" >
+                        </a> |     
+                        <a href="https://www.twitter.com" target="_blank" class="fw-bold"> Twitter</a> <a href="https://www.twitter.com" target="_blank"><img class="redes" src="/png/twiiter.png" alt="Twitter" height="30" >
+                        </a> |    
+                    </p>
+                    <p>Si deseas ponerte en contacto con nosotros, puedes hacerlo de las siguientes maneras: |
+                        <a href="https://acortar.link/QToXfs" target="_blank"> <span class="fw-bold">Correo:</span> Tec-Shop@empresa.es
+                        </a> | 
+                        <a href="tel:+34933819005" target="_blank"> <span class="fw-bold">Teléfono:</span> 933 81 90 05
+                        </a> |
+                        <a href="https://acortar.link/rLKgQT" target="_blank"> <span class="fw-bold">Dirección:</span> Av. d'Eduard Maristany, 59, 08930 Sant Adrià de Besòs, Barcelona 
+                        </a> |
+                    </p>
+                    <hr class="border-5">
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
